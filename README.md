@@ -1,1 +1,1 @@
-# Multi-domain-Discriminant-Analysis
+# Multidomain Discriminant Analysis
