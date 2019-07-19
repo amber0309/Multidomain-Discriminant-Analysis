@@ -26,8 +26,6 @@ The test does the following:
 
 ### Usage
 
-Apply **ANM-MM** on your data
-
 ```Matlab
 [test_accuracy, predicted_labels, Zs, Zt] = MDA(X_s_cell, Y_s_cell, X_t, Y_t, params)
 ```
