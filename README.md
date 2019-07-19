@@ -63,4 +63,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-* Hat tip to Ya Li for his [CIDG code](https://mingming-gong.github.io/papers/CIDG.zip).
+* We appreciate the [CIDG](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16595) [code](https://mingming-gong.github.io/papers/CIDG.zip) by Ya Li.
