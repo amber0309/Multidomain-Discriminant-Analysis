@@ -18,7 +18,7 @@ The test does the following:
 
 1. load the synthetic data (data/data2.m);
 1. put source domain data in MATLAB *cell arrays*;
-1. put data for testing and validation in matrix;
+1. put data for testing and validation in two matrices, respectively;
 1. Apply MDA on this data set.
 
 
