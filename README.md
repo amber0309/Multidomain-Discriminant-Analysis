@@ -2,7 +2,7 @@
 
 MATLAB implementation of paper
 
-[Domain Generalization via Multidomain Discriminant Analysis](http://papers.nips.cc/paper/7767-causal-inference-and-mechanism-clustering-of-a-mixture-of-additive-noise-models)  
+Domain Generalization via Multidomain Discriminant Analysis  
 Shoubo Hu, Kun Zhang, Zhitang Chen, Laiwan Chan.  
 In *Proceedings of Conference on Uncertainty in Artificial Intelligence* (**UAI**) 2019.
 
