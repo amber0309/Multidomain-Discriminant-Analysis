@@ -1,13 +1,13 @@
 function [test_accuracy, predicted_labels, Zs, Zt] = MDA(X_s_cell, Y_s_cell, X_t, Y_t, params)
 %{
-Implementation of Multi-domain Discriminant Analysis (MDA) proposed in [1]
+Implementation of Multidomain Discriminant Analysis (MDA) proposed in [1]
 
 INPUT(params is optional):
   X_s_cell          - cell of (n_s*d) matrices, each matrix corresponds to the instance features of a source domain
   Y_s_cell          - cell of (n_s*1) matrices, each matrix corresponds to the instance labels of a source domain
   X_t               - (n_t*d) matrix, rows correspond to instances and columns correspond to features
   Y_t               - (n_t*1) matrix, each row is the class label of corresponding instances in X_t
-  [params]          - params.beta:      vector of validated values of beta
+  params (optional) - params.beta:      vector of validated values of beta
                       params.alpha:     vector of validated values of alpha
                       params.gamma:     vector of validated values of gamma
                       params.q_list:    vector of validated dimension of the transformed space
@@ -24,11 +24,7 @@ OUTPUT:
 Shoubo Hu (shoubo.sub [at] gmail.com)
 2019-06-02
 
-Reference
-[1] Ghifary, M., Balduzzi, D., Kleijn, W. B., & Zhang, M. (2017). 
-    Scatter component analysis: A unified framework for domain 
-    adaptation and domain generalization. IEEE transactions on pattern 
-    analysis and machine intelligence, 39(7), 1414-1430.
+[1] Shoubo Hu, Kun Zhang, Zhitang Chen, Laiwan Chan. "Domain Generalization via Multidomain Discriminant Analysis." UAI 2019.
 %}
 
     if nargin < 4
