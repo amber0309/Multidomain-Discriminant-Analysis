@@ -4,9 +4,9 @@ MATLAB implementation of paper
 
 Domain Generalization via Multidomain Discriminant Analysis  
 Shoubo Hu, Kun Zhang, Zhitang Chen, Laiwan Chan.  
-In *Proceedings of Conference on Uncertainty in Artificial Intelligence* (**UAI**) 2019.
+*Conference on Uncertainty in Artificial Intelligence* (**UAI**) 2019.
 
-### Prerequisites
+## Prerequisites
 
 We test the code using **MATLAB R2017b** on Windows 10. Any later version should still work perfectly.
 
@@ -21,7 +21,6 @@ The test does the following:
 1. put data for testing and validation in two matrices, respectively;
 1. Apply MDA on this data set.
 
-
 ## Apply **MDA** on your data
 
 ### Usage
@@ -32,17 +31,17 @@ The test does the following:
 
 ### Description
 
-Input of function **MDA()**
+Input of function `MDA()`
 
 | Argument  | Description  |
 |---|---|
-|X_s_cell | cell of (n_s*d) matrices, each matrix corresponds to the instance features of a source domain|
-|Y_s_cell | cell of (n_s*1) matrices, each matrix corresponds to the instance labels of a source domain |
-|X_t |(n_t*d) matrix, rows correspond to instances and columns correspond to features |
-|Y_t|(n_t*1) matrix, each row is the class label of corresponding instances in X_t |
+|X_s_cell | cell of (n_s\*d) matrices, each matrix corresponds to the instance features of a source domain|
+|Y_s_cell | cell of (n_s\*1) matrices, each matrix corresponds to the instance labels of a source domain |
+|X_t |(n_t\*d) matrix, rows correspond to instances and columns correspond to features |
+|Y_t|(n_t\*1) matrix, each row is the class label of corresponding instances in X_t |
 |params (optional)|struct containing hyperparameters and validation data (details in MDA.m)|
 
-Output of function **MDA()**
+Output of function `MDA()`
 
 | Argument  | Description  |
 |---|---|
