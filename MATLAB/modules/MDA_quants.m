@@ -26,7 +26,7 @@ n_domain = length(X);
 % labels of all domains in a vector
 Y_ALL = cat(1, Y{:});
 n_total = size(Y_ALL, 1);            % number of instances in all source domains
-n_class = length(unique(Y_ALL))-1;   % number of classes mush begin from one
+n_class = length(unique(Y_ALL));   % number of classes mush begin from one
 
 % save class and domain index of all instances into two row vectors 
 class_index = zeros(1, n_total);

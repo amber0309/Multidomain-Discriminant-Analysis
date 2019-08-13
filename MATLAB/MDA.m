@@ -96,7 +96,7 @@ Shoubo Hu (shoubo.sub [at] gmail.com)
 
     dist_s_v = pdist2(X_s, X_v);
     dist_s_v = dist_s_v.^2;
-    sgm_v = compute_width(dist_s_s);
+    sgm_v = compute_width(dist_s_v);
 
     n_s = size(X_s, 1);
     n_v = size(X_v, 1);
