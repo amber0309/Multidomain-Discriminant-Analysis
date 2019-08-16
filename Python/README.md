@@ -17,9 +17,9 @@ We test the code using **Anaconda 4.3.30 64-bit for python 2.7** on Windows 10.
 After installing all required packages, you can run *demo.py* to see whether `MDA()` could work normally.
 
 The test code does the following:
-1. it loads the synthetic data, where there are 3 domains and 3 classes in each domain.
-2. MDA uses source domains and validation set to learn and validate the invariant transformation.
-3. Finally, the optimal transformation is applied on the target domain.
+1. loads the synthetic data, where there are 3 domains and 3 classes in each domain;
+2. uses source domains and validation set to learn and validate the invariant transformation;
+3. applies the optimal transformation on the target domain.
 
 ## Apply `MDA()` on your data
 
