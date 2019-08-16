@@ -68,7 +68,3 @@ Output of `MDA.predict()`
 * **Shoubo Hu** - shoubo [dot] sub [at] gmail [dot] com
 
 See also the list of [contributors](https://github.com/amber0309/Multidomain-Discriminant-Analysis/graphs/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
