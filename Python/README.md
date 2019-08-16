@@ -47,7 +47,7 @@ Input of `MDA()`
 |---|---|
 |X_s_list | list of `(n_s, d)` matrices, each matrix corresponds to the instance features of a source domain|
 |y_s_list | list of `(n_s, 1)` matrices, each matrix corresponds to the instance labels of a source domain |
-|params |dictionary containing hyperparameters and validation data (details in `MDA.py`) |
+|params |dictionary containing hyperparameters and validation data (details in *MDA.py*) |
 
 Input of `MDA.predict()`
 
