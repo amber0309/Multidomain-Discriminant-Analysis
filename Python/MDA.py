@@ -330,6 +330,13 @@ class MDA():
 
 
 def compute_width(dist_mat):
-	half_dist = dist_mat - np.triu(dist_mat)
-	half_dist = half_dist[ half_dist > 0 ]
-	return np.sqrt( 0.5 * np.median(half_dist) )
+	n1, n2 = dist_mat.shape
+	if n1 == n2:
+		if np.allclose(dist_mat, dist_mat.T):
+			id_tril = np.tril_indices(dist_mat.shape[0], -1)
+			bandwidth = dist_mat[id_tril]
+			return np.sqrt( 0.5 * np.median(bandwidth) )
+		else:
+			return np.sqrt( 0.5 * np.median(dist_mat) )
+	else:
+		return np.sqrt( 0.5 * np.median(dist_mat) )
